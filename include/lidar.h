@@ -2,20 +2,25 @@
 
 #ifndef LIDAR_H
 #define LIDAR_H
-// #ifndef BASIC_H
-// #define BASIC_H
-// #include <stdio.h>
-// #include <stdlib.h>
-// #endif
+
+struct _CLidar {
+  /* private: */
+  double currSecTime;
+  void *scanReading;
+  void *currSecScanReading;
+  // Must initialize a mqtt class that deals with curr_sec_scan_readings
 
 
-struct Lidar {
 
-};
+  /* public: */
+  /* Member Functions */
 
-extern const struct LidarClass{
 
 } Lidar;
+
+
+/* Global Member Functions */
+extern void m_lidar_constructor(struct Lidar *this);
 
 
 #endif
