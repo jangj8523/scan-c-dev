@@ -3,20 +3,18 @@
 #ifndef LIDAR_H
 #define LIDAR_H
 
-struct _CLidar {
+struct CLidar {
   /* private: */
   double currSecTime;
   void *scanReading;
   void *currSecScanReading;
   // Must initialize a mqtt class that deals with curr_sec_scan_readings
+};
 
-
-
-  /* public: */
-  /* Member Functions */
-
-
-} Lidar;
+void Lidar_init(CLidar* self, int x, int y) {
+  self->x = x;
+  self->y = y;
+ }
 
 
 /* Global Member Functions */
