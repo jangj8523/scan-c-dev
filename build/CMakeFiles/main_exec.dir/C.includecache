@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lidar.h
+
+/home/pi/jaewoo_work/c_lidar/src/main.c
+stdio.h
+-
+stdlib.h
+-
+MQTTClient.h
+-
+lidar.h
+-
+
