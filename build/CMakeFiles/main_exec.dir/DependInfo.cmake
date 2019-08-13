@@ -12,6 +12,8 @@ set(CMAKE_C_COMPILER_ID "Clang")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
   "../usr/include"
+  "../usr/local/lib"
+  "/usr/local/include"
   "../usr/local/include"
   )
 

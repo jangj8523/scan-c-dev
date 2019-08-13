@@ -4,6 +4,7 @@ project (Tutorial)
 # The version number.
 set (Lidar_version 1)
 
+include_directories (../include)
 
-
-add_executable(main_exec main.c)
+add_library (lidar SHARED lidar.c)
+set_target_properties(lidar PROPERTIES LIBRARY_OUTPUT_DIRECTORY ../bin)

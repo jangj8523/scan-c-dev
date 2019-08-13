@@ -11,16 +11,12 @@
 
 
 
-
-
-
-
-
-
 int main()
 {
    // printf() displays the string inside quotation
    printf("========= RUNNING LIDAR CLIENT IMPLEMENTED IN C =========!");
+   struct C_Lidar active_lidar;
+   lidar_init(&active_lidar);
 
    // Create a lidar class that creates the mqtt client
    // Loops infinitely

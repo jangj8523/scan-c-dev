@@ -4,3 +4,8 @@
 CMakeFiles/main_exec.dir/src/main.c.o
  ../include/lidar.h
  /Users/jaewoojang/Desktop/scan-c-dev/src/main.c
+ /usr/local/include/MQTTClient.h
+ /usr/local/include/MQTTClientPersistence.h
+ /usr/local/include/MQTTProperties.h
+ /usr/local/include/MQTTReasonCodes.h
+ /usr/local/include/MQTTSubscribeOpts.h
