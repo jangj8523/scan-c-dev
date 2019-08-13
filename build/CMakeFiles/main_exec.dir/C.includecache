@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -8,7 +8,7 @@
 
 ../include/lidar.h
 
-/home/pi/jaewoo_work/c_lidar/src/main.c
+/Users/jaewoojang/Desktop/scan-c-dev/src/main.c
 stdio.h
 -
 stdlib.h

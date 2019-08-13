@@ -1,3 +1,3 @@
-/home/pi/jaewoo_work/c_lidar/build/CMakeFiles/rebuild_cache.dir
-/home/pi/jaewoo_work/c_lidar/build/CMakeFiles/edit_cache.dir
-/home/pi/jaewoo_work/c_lidar/build/CMakeFiles/main_exec.dir
+/Users/jaewoojang/Desktop/scan-c-dev/build/CMakeFiles/rebuild_cache.dir
+/Users/jaewoojang/Desktop/scan-c-dev/build/CMakeFiles/edit_cache.dir
+/Users/jaewoojang/Desktop/scan-c-dev/build/CMakeFiles/main_exec.dir
