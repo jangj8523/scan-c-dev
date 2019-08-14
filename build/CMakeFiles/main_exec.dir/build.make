@@ -90,11 +90,7 @@ main_exec_EXTERNAL_OBJECTS =
 
 main_exec: CMakeFiles/main_exec.dir/src/main.c.o
 main_exec: CMakeFiles/main_exec.dir/build.make
-<<<<<<< HEAD
 main_exec: ../bin/liblidar.so
-=======
-main_exec: ../bin/liblidar.dylib
->>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6
 main_exec: CMakeFiles/main_exec.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/jaewoo_work/c_lidar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main_exec"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main_exec.dir/link.txt --verbose=$(VERBOSE)

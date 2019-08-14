@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 /usr/bin/cc     CMakeFiles/main_exec.dir/src/main.c.o  -o main_exec -Wl,-rpath,/home/pi/jaewoo_work/c_lidar/bin -rdynamic ../bin/liblidar.so 
-=======
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main_exec.dir/src/main.c.o  -o main_exec ../bin/liblidar.dylib 
->>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6

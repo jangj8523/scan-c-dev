@@ -6,6 +6,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ")
 # The version number.
 set (Lidar_version 1)
 
+
+
 # Set Varaible paths
 set (SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
 set (BIN_DIR ${PROJECT_SOURCE_DIR}/bin)
@@ -26,10 +28,7 @@ include_directories (usr/local/include)
 message(STATUS, ${PROJECT_SOURCE_DIR})
 
 add_executable(main_exec src/main.c)
-<<<<<<< HEAD
 target_link_libraries(main_exec ${BIN_DIR}/liblidar.so)
-=======
-target_link_libraries(main_exec ${BIN_DIR}/liblidar.dylib)
->>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6
+# target_link_libraries(main_exec ${BIN_DIR}/liblidar.dylib)
 
 # add_subdirectory(${PROJECT_SOURCE_DIR}/src)

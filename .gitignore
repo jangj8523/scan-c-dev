@@ -1,7 +1,9 @@
-*/CMakeFiles/
+*/CMakeFiles/*
+*CMakeFiles/*
 */cmake_install.cmake
 */CMakeCache.txt
 */Makefile
+*/build/*
 build/*
 /build/*
 lib/paho.mqtt.c

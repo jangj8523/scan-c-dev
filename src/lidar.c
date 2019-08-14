@@ -31,10 +31,5 @@ static void _initialize_mqtt_client(MQTTClient *client) {
 void lidar_init(struct c_lidar* self) {
   self->scan_reading = (int *) malloc(SCAN_ARRAY_SIZE*sizeof(int));
   self->curr_sec_scan_readings = (int**) malloc (READING_MAP_SIZE * sizeof(int));
-<<<<<<< HEAD
-
- }
-=======
   _initialize_mqtt_client(self->client);
 }
->>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6

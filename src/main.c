@@ -5,13 +5,8 @@
 #include <stdlib.h>
 #endif /* BASIC_H */
 
-<<<<<<< HEAD
 #include <MQTTClient.h>
 #include "lidar.h"
-=======
-#include "MQTTClient.h"
-#include <lidar.h>
->>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6
 
 
 

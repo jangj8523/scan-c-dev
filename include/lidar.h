@@ -7,10 +7,6 @@
 #define READING_MAP_SIZE 100
 
 #include "MQTTClient.h"
-<<<<<<< HEAD
-
-=======
->>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6
 
 
 

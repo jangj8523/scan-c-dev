@@ -3,9 +3,9 @@
 
 CMakeFiles/main_exec.dir/src/main.c.o: ../include/lidar.h
 CMakeFiles/main_exec.dir/src/main.c.o: ../src/main.c
-<<<<<<< HEAD
 CMakeFiles/main_exec.dir/src/main.c.o: /usr/local/include/MQTTClient.h
 CMakeFiles/main_exec.dir/src/main.c.o: /usr/local/include/MQTTClientPersistence.h
-=======
->>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6
+CMakeFiles/main_exec.dir/src/main.c.o: /usr/local/include/MQTTProperties.h
+CMakeFiles/main_exec.dir/src/main.c.o: /usr/local/include/MQTTReasonCodes.h
+CMakeFiles/main_exec.dir/src/main.c.o: /usr/local/include/MQTTSubscribeOpts.h
 

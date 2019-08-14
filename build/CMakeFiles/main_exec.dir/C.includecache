@@ -6,8 +6,9 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
 ../include/lidar.h
+MQTTClient.h
+../include/MQTTClient.h
 
 /home/pi/jaewoo_work/c_lidar/src/main.c
 stdio.h
@@ -22,6 +23,12 @@ lidar.h
 /usr/local/include/MQTTClient.h
 stdio.h
 -
+MQTTProperties.h
+/usr/local/include/MQTTProperties.h
+MQTTReasonCodes.h
+/usr/local/include/MQTTReasonCodes.h
+MQTTSubscribeOpts.h
+/usr/local/include/MQTTSubscribeOpts.h
 MQTTClientPersistence.h
 /usr/local/include/MQTTClientPersistence.h
 stdio.h
@@ -51,5 +58,9 @@ MQTTClient.h
 
 /usr/local/include/MQTTClientPersistence.h
 
-=======
->>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6
+/usr/local/include/MQTTProperties.h
+
+/usr/local/include/MQTTReasonCodes.h
+
+/usr/local/include/MQTTSubscribeOpts.h
+
