@@ -17,8 +17,6 @@ set (TEST_DIR ${PROJECT_SOURCE_DIR}/test)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/build)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
 
-
-
 # include Standard C library and our custom header files
 include_directories ( ${INCLUDE_DIR} )
 
