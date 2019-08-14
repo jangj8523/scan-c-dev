@@ -131,7 +131,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
 //The product will be built against the headers and libraries located
 // inside the indicated SDK.
-CMAKE_OSX_SYSROOT:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk
+CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -206,6 +206,9 @@ Tutorial_BINARY_DIR:STATIC=/Users/jaewoojang/Desktop/scan-c-dev/build
 
 //Value Computed by CMake
 Tutorial_SOURCE_DIR:STATIC=/Users/jaewoojang/Desktop/scan-c-dev
+
+//Dependencies for the target
+lidar_LIB_DEPENDS:STATIC=general;/Users/jaewoojang/Desktop/scan-c-dev/lib/build/src/libpaho-mqtt3a.dylib;
 
 
 ########################
