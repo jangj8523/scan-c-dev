@@ -1,12 +1,31 @@
 cmake_minimum_required (VERSION 2.6)
 project (Tutorial)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ")
+set(CMAKE_BUILD_TYPE Debug)
 
 
 # The version number.
 set (Lidar_version 1)
 
+if (APPLE)
+  set (CMAKE_OS_NAME "OSX" CACHE STRING "Operating system name" FORCE)
+else (APPLE)
+  ## Check for Debian GNU/Linux ________________
+  find_file (DEBIAN_FOUND debian_version debconf.conf
+    PATHS /etc
+)
+if (DEBIAN_FOUND)
+  set (CMAKE_OS_NAME "Debian" CACHE STRING "Operating system name" FORCE)
+  if (UBUNTU_FOUND)
+	  set (CMAKE_OS_NAME "Ubuntu" CACHE STRING "Operating system name" FORCE)
+	  set (DEBIAN_FOUND FALSE)
+	endif (UBUNTU_FOUND)
+  endif (DEBIAN_FOUND)
+endif (APPLE)
 
+if (UBUNTU_FOUND)
+  message("UBUNTU FOUND")
+endif (UBUNTU_FOUND)
 
 # Set Varaible paths
 set (SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)

@@ -1,5 +1,6 @@
 cmake_minimum_required (VERSION 2.6)
 project (Tutorial)
+set(CMAKE_BUILD_TYPE Debug)
 
 # The version number.
 set (Lidar_version 1)
@@ -7,7 +8,7 @@ set (Lidar_version 1)
 include_directories (../include)
 SET(LIBS_SYSTEM c pthread usr/local/lib)
 
-add_library (lidar SHARED lidar.c)
+add_library (lidar SHARED lidar.c osutil.c)
 # target_link_libraries(lidar ${PROJECT_SOURCE_DIR}/build/src/libpaho-mqtt3a.dylib)
 # target_link_libraries(lidar /usr/local/lib/libpaho-mqtt3c.1.3.1.dylib)
 target_link_libraries(lidar /usr/local/lib/libpaho-mqtt3c.so.1.2.1)

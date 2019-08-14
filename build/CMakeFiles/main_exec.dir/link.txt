@@ -1,1 +1,1 @@
-/usr/bin/cc     CMakeFiles/main_exec.dir/src/main.c.o  -o main_exec -Wl,-rpath,/home/pi/jaewoo_work/c_lidar/bin -rdynamic ../bin/liblidar.so 
+/usr/bin/cc  -g   CMakeFiles/main_exec.dir/src/main.c.o  -o main_exec -Wl,-rpath,/home/pi/jaewoo_work/c_lidar/bin -rdynamic ../bin/liblidar.so 
