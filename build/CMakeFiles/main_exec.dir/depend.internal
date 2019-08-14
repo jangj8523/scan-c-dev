@@ -3,6 +3,10 @@
 
 CMakeFiles/main_exec.dir/src/main.c.o
  ../include/lidar.h
+<<<<<<< HEAD
  /home/pi/jaewoo_work/c_lidar/src/main.c
  /usr/local/include/MQTTClient.h
  /usr/local/include/MQTTClientPersistence.h
+=======
+ /Users/jaewoojang/Desktop/scan-c-dev/src/main.c
+>>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6

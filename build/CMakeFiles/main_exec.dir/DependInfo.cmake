@@ -13,7 +13,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
   "../usr/include"
   "../usr/local/lib"
-  "/usr/local/include"
+  "../lib/paho.mqtt.c/src"
   "../usr/local/include"
   )
 

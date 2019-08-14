@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 ../include/lidar.h
 
 /home/pi/jaewoo_work/c_lidar/src/main.c
@@ -50,3 +51,5 @@ MQTTClient.h
 
 /usr/local/include/MQTTClientPersistence.h
 
+=======
+>>>>>>> b233d516c8aeab14877ca2f8c990b0524e2781d6
