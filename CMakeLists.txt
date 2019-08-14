@@ -26,6 +26,6 @@ include_directories (usr/local/include)
 message(STATUS, ${PROJECT_SOURCE_DIR})
 
 add_executable(main_exec src/main.c)
-# target_link_libraries(main_exec ${BIN_DIR}/lidar)
+target_link_libraries(main_exec ${BIN_DIR}/liblidar.so)
 
 # add_subdirectory(${PROJECT_SOURCE_DIR}/src)

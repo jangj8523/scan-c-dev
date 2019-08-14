@@ -6,6 +6,8 @@
 #define SCAN_ARRAY_SIZE 720
 #define READING_MAP_SIZE 100
 
+#include "MQTTClient.h"
+
 
 
 struct C_Lidar {

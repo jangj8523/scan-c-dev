@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -8,7 +8,7 @@
 
 ../include/lidar.h
 
-/Users/jaewoojang/Desktop/scan-c-dev/src/main.c
+/home/pi/jaewoo_work/c_lidar/src/main.c
 stdio.h
 -
 stdlib.h
@@ -16,17 +16,11 @@ stdlib.h
 MQTTClient.h
 -
 lidar.h
--
+/home/pi/jaewoo_work/c_lidar/src/lidar.h
 
 /usr/local/include/MQTTClient.h
 stdio.h
 -
-MQTTProperties.h
-/usr/local/include/MQTTProperties.h
-MQTTReasonCodes.h
-/usr/local/include/MQTTReasonCodes.h
-MQTTSubscribeOpts.h
-/usr/local/include/MQTTSubscribeOpts.h
 MQTTClientPersistence.h
 /usr/local/include/MQTTClientPersistence.h
 stdio.h
@@ -55,10 +49,4 @@ MQTTClient.h
 /usr/local/include/MQTTClient.h
 
 /usr/local/include/MQTTClientPersistence.h
-
-/usr/local/include/MQTTProperties.h
-
-/usr/local/include/MQTTReasonCodes.h
-
-/usr/local/include/MQTTSubscribeOpts.h
 

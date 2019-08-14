@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main_exec.dir/src/main.c.o  -o main_exec 
+/usr/bin/cc     CMakeFiles/main_exec.dir/src/main.c.o  -o main_exec -Wl,-rpath,/home/pi/jaewoo_work/c_lidar/bin -rdynamic ../bin/liblidar.so 
