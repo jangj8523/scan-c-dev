@@ -39,6 +39,7 @@ void free_configs(struct MQTTConfig *config) {
   free(config->client_id);
   free(config->sub_topic);
   free(config->pub_topic);
+  free(config);
 }
 
 
@@ -48,7 +49,8 @@ struct MQTTConfig *parse_mqtt_configuration() {
   config->timeout = 10000L;
   FILE *fp;
   fp  = fopen ("/home/pi/jaewoo_work/c_lidar/src/mqtt_config.txt", "r");
-  if (fp == NULL) {
+  if (fp == NULL)
+  {
     printf ("Configuration to MQTT Bridge does not exist\n");
     exit(EXIT_FAILURE);
   }
@@ -59,9 +61,11 @@ struct MQTTConfig *parse_mqtt_configuration() {
   size_t curr_buff_size = BUFFER_DEFAULT_SIZE;
   size_t curr_length=0;
 
-  while (counter < 4) {
+  while (counter < 4)
+  {
     ch = fgetc(fp);
-    if (buffer == NULL) {
+    if (buffer == NULL)
+    {
         buffer = malloc(BUFFER_DEFAULT_SIZE);
         curr_buff_size = BUFFER_DEFAULT_SIZE;
     }
@@ -71,7 +75,8 @@ struct MQTTConfig *parse_mqtt_configuration() {
         curr_buff_size = 2 * curr_buff_size;
     }
     *(buffer+curr_length) = ch;
-    if (ch == '\n' || ch == '\0') {
+    if (ch == '\n' || ch == '\0')
+    {
       switch(counter) {
         case 0:
           config->bridge_address = buffer;

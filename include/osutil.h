@@ -7,7 +7,8 @@
 #include <stdio.h>
 #include "MQTTClient.h"
 
-struct MQTTConfig {
+struct MQTTConfig
+{
   char *bridge_address;
   char *client_id;
   char *sub_topic;
